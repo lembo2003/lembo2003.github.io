@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@100;200;300;400;600&family=Roboto+Mono:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+    <title>Lembo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="icon" type="image/x-icon" href="media/icon-for-logo.png">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="logoimg" src="media/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="about.html">THÔNG TIN</a></li>
+                    <li><a href="course.html">KHÓA</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Đại học Phương Đông</h1>
+    </section>
+<!-- ------blog content------ -->
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="/media/cert.jpg" alt="">
+            <h2>Thông tin về chương trình học và đầu ra</h2>
+            <p></p>
+            <br>
+
+            <div class="comment-box">
+                <h3>Để lại bình luận</h3>
+
+                <form class="comment-form">
+                    <input type="text" class="tex" placeholder="EnterName">
+                    <input type="email" name="" id="" placeholder="EnterEmail">
+                    <textarea name="" id="" placeholder="Your comment" rows="5"></textarea>
+                <button type="submit" class="hero-btn red-btn">ĐĂNG</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Các ngành</h3>
+            <div>
+                <span>QTKD</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>QTKD</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>QTKD</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>QTKD</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>QTKD</span>
+                <span>21</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ----footer----- -->
+<section class="footer">
+    <h2>Thông tin chủ site</h2>
+    <p><i class="fa-solid fa-signature"></i>  Họ tên: Trần Trung Dũng <br> 
+        <i class="fa-regular fa-id-card"></i>  Mã số: 521100139 <br>
+        <i class="fa-solid fa-house-laptop"></i>  Lớp: 521100C <br>
+        <i class="fa-solid fa-house"></i>  Ngành: CNTT
+    </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by LEMBO</p>
+</section>
+
+
+
+<!-- --------Javascript for toggle for menu----- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+    
+    
+    
+    <!-- ------JS for boostrap stuffs------ -->
+    <script src="https://kit.fontawesome.com/6e76bcc696.js" crossorigin="anonymous"></script>
+</body>
+</html>

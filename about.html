@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@100;200;300;400;600&family=Roboto+Mono:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+    <title>Lembo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="icon" type="image/x-icon" href="media/icon-for-logo.png">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="logoimg" src="media/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="about.html">THÔNG TIN</a></li>
+                    <li><a href="course.html">KHÓA</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Đại học Phương Đông</h1>
+    </section>
+
+    <!-- ------ about content----- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Giới thiệu chung</h1>
+                <p>
+                    Đại học Phương Đông là một trong những trường ĐH ngoài công lập đầu tiên trong hệ thống giáo dục đại học Việt Nam. Trường được thành lập theo Quyết định số 350/TTg ngày 8/7/1994 của Thủ tướng Chính phủ và chính thức đi vào hoạt động theo quyết định số 2282/GD-ĐT của Bộ Giáo dục và Đào tạo ngày 16/8/1994. Nhà trường tổ chức khai giảng khóa đầu tiên ngày 24/10/1994. Ngày này được lấy làm ngày truyền thống của nhà trường. <br>
+
+ĐH Phương Đông thuộc hệ thống giáo dục quốc dân nước Cộng hoà Xã hội Chủ nghĩa Việt Nam, chịu sự quản lí Nhà nước về giáo dục và đào tạo của Bộ Giáo dục và Đào tạo và các cơ quan quản lí giáo dục theo sự phân công, phân cấp của Chính phủ; đồng thời chịu sự quản lí hành chính theo lãnh thổ của Uỷ ban Nhân dân thành phố Hà Nội.
+<br>
+ĐH Phương Đông là cơ sở giáo dục đại học do một tập thể các nhà giáo, nhà khoa học, nhà đầu tư cùng đóng góp công sức, kinh phí và cơ sở vật chất ban đầu thành lập. Trường có tư cách pháp nhân, con dấu, tài khoản và tự chủ trong khuôn khổ pháp luật về tổ chức bộ máy, tuyển dụng lao động và tài chính; bình đẳng với các trường đại học khác về nhiệm vụ, quyền hạn, nghĩa vụ và quyền lợi của giảng viên, cán bộ, nhân viên, học sinh, sinh viên trong việc thực hiện mục tiêu, chương trình, nội dung, phương pháp đào tạo và các quy định liên quan đến tuyển sinh, dạy và học, thi, kiểm tra, công nhận tốt nghiệp, cấp văn bằng chứng chỉ; được hưởng các chính sách ưu đãi đối với các cơ sở giáo dục - đào tạo theo quy định của Chính phủ.
+<br>
+<a href="https://phuongdong.edu.vn/Gioi-thieu-chung/Gioi-thieu-truong-dai-hoc-Phuong-Dong-22092014-31.html" class="hero-btn red-btn">TÌM HIỂU THÊM</a>
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="/media/gioithieuchung.jpeg.crdownload" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<!-- ----footer----- -->
+<section class="footer">
+    <h2>Thông tin chủ site</h2>
+    <p><i class="fa-solid fa-signature"></i>  Họ tên: Trần Trung Dũng <br> 
+        <i class="fa-regular fa-id-card"></i>  Mã số: 521100139 <br>
+        <i class="fa-solid fa-house-laptop"></i>  Lớp: 521100C <br>
+        <i class="fa-solid fa-house"></i>  Ngành: CNTT
+    </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by LEMBO</p>
+</section>
+
+
+
+<!-- --------Javascript for toggle for menu----- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+    
+    
+    
+    <!-- ------JS for boostrap stuffs------ -->
+    <script src="https://kit.fontawesome.com/6e76bcc696.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@100;200;300;400;600&family=Roboto+Mono:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+    <title>Lembo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="icon" type="image/x-icon" href="media/icon-for-logo.png">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="logoimg" src="media/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="about.html">THÔNG TIN</a></li>
+                    <li><a href="course.html">KHÓA</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Đại học Phương Đông</h1>
+    </section>
+
+<!-- -----course----- -->
+<section class="course">
+    <h1>Khóa học</h1>
+    <p>Các ngành học thuộc khoa CÔNG NGHỆ THÔNG TIN & TRUYỀN THÔNG</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Công nghệ thông tin</h3>
+            <p>1 trong các ngành mũi nhọn của trường, 1 lựa chọn hợp lý</p>
+        </div>
+        <div class="course-col">
+            <h3>Thương mại điện tử</h3>
+            <p>Ngành học hot, nhu cầu cao, được đi thực hành, trải nghiệm nhiều, nâng cao kỹ năng,...</p>
+        </div>
+        <div class="course-col">
+            <h3>Truyền thông đa phương tiện</h3>
+            <p>Rèn luyện kỹ năng, liên kết với doanh nghiệp, đảm bảo,..</p>
+        </div>
+    </div>
+    <p>Các ngành thuộc cơ sở 2</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Quản trị kinh doanh</h3>
+            <p>Các tài liệu bài bản, thực tế, sát với khuynh hướng thị trường. Giảng viên khoa dày dặn kinh nghiệm, nhiều sinh viên ra trường đã có định hướng rõ ràng với công việc của mình</p>
+        </div>
+        <div class="course-col">
+            <h3>Quản trị dịch vụ du lịch và lữ hành</h3>
+            <p>Gồm quản trị dịch vụ du lịch và lữ hành, hướng dẫn du lịch</p>
+        </div>
+        <div class="course-col">
+            <h3>Các khối ngành ngôn ngữ</h3>
+            <p>Gồm các ngôn ngữ: Anh, Trung Quốc, Nhật. Tài liệu phong phú, giảng viên nước ngoài dày dặn kinh nghiệm, tận tâm với nghề.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ------facilities------ -->
+<section class="facilities">
+    <h1>Phương tiện công cộng</h1>
+    <p>Trường trang bị nhiều cơ sở vật chất thuận tiện cho việc học tập của sinh viên.</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="/media/thuvien.jpg" alt="">
+            <h3>Thư viện rộng rãi</h3>
+            <p>Hệ thống thư viện phong phú mở cửa cả ngày phù hợp đáp ứng nhu cầu các sinh viên muốn tìm tòi thêm tri thức hoặc đơn giản là 1 nơi thư giãn sau thời gian học tập mệt mỏi</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/media/baidoxe.jpg" alt="" >
+            <h3>Bãi đỗ xe thoáng</h3>
+            <p>Diện tích khu đát lớn, đáp ứng nhu cầu để xe của sinh viên và thầy cô, lưu thông xung quanh thoáng, tốt, thuận tiện di chuyển tại cả 2 cơ sở.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="/media/cangtin.jpg" alt="">
+            <h3>Căng tin đa dạng</h3>
+            <p>Với đa dạng các môn ăn, sinh viên hoàn toàn không phải lo lắng việc mình phải ăn gì nữa.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ----footer----- -->
+<section class="footer">
+    <h2>Thông tin chủ site</h2>
+    <p><i class="fa-solid fa-signature"></i>  Họ tên: Trần Trung Dũng <br> 
+        <i class="fa-regular fa-id-card"></i>  Mã số: 521100139 <br>
+        <i class="fa-solid fa-house-laptop"></i>  Lớp: 521100C <br>
+        <i class="fa-solid fa-house"></i>  Ngành: CNTT
+    </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by LEMBO</p>
+</section>
+
+
+
+<!-- --------Javascript for toggle for menu----- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+    
+    
+    
+    <!-- ------JS for boostrap stuffs------ -->
+    <script src="https://kit.fontawesome.com/6e76bcc696.js" crossorigin="anonymous"></script>
+</body>
+</html>
