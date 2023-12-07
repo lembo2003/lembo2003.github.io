@@ -132,7 +132,7 @@ h1{
     font-size: 36px;
     font-weight: 600;
 }
-p{
+p,li,ol{
     color: #777;
     font-size: 20px;
     font-weight: 400;
@@ -152,6 +152,9 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+}
+ul li{
+    list-style: none;
 }
 h3{
     text-align: center;
@@ -354,6 +357,9 @@ h3{
 .about-col img{
     width: 100%;
 }
+.about-col iframe{
+    width: 100%;
+}
 .about-col h1{
     padding-top: 0;
 }
@@ -491,4 +497,7 @@ h3{
     outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
+.tintuc-banner{
+    display: flex;
 }
