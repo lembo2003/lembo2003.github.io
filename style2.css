@@ -1,0 +1,226 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin:0; padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+/* ------Viet cho may tinh------ */
+.luoi{
+    width: 100%;
+    display: block;
+    padding: 0;
+    background-color: #bdc3c7;
+}
+.chieurongluoi{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.hang{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cot{
+    padding: 0 12px;
+}
+.cot-0{
+    display: none;
+}
+.cot-1{
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+.cot-2{
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+.cot-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.cot-4{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+.cot-5{
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+}
+.cot-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.cot-7{
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+}
+.cot-8{
+    flex: 0 0 64.66667%;
+    max-width: 64.66667%;
+}
+.cot-9{
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.cot-10{
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+.cot-11{
+    flex: 0 0 91.66667%;
+    max-width: 91.66667%;
+}
+.cot-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.noidung{
+    border: 4px solid #30336b;
+    height: 100px;
+    background-color: #686de0;
+    margin: 5px;
+    text-align: center;
+}
+@media (min-width: 744px) and (max-width: 1200px){
+    .chieurongluoi{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    body{
+        background-color: #4834d4;
+    }
+    .cot{
+        padding: 0 8px;
+    }
+    .maytinhbang-0{
+        display: none;
+    }
+    .maytinhbang-1{
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .maytinhbang-2{
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .maytinhbang-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .maytinhbang-4{
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .maytinhbang-5{
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .maytinhbang-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .maytinhbang-7{
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .maytinhbang-8{
+        flex: 0 0 64.66667%;
+        max-width: 64.66667%;
+    }
+    .maytinhbang-9{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .maytinhbang-10{
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .maytinhbang-11{
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .maytinhbang-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width: 743px){
+    body{
+        background-color: #95afc0;
+    }
+    .chieurongluoi{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .cot{
+        padding: 0 4px;
+    }
+    .dth-0{
+        display: none;
+    }
+    .dth-1{
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .dth-2{
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .dth-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .dth-4{
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .dth-5{
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .dth-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .dth-7{
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .dth-8{
+        flex: 0 0 64.66667%;
+        max-width: 64.66667%;
+    }
+    .dth-9{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .dth-10{
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .dth-11{
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .dth-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.logo{
+    width: 100%;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.red{
+    background-color: red;
+}
+.haha{
+    float: right;
+}
